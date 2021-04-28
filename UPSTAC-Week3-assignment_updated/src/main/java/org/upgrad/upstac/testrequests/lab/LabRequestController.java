@@ -66,7 +66,7 @@ public class LabRequestController {
         }catch (AppException e) {
             throw asBadRequest(e.getMessage());
         }
-  }
+    }
 
 
     @PreAuthorize("hasAnyRole('TESTER')")
